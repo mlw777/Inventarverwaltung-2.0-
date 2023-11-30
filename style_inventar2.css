@@ -1,0 +1,50 @@
+h2 {
+    color: #333;
+}
+
+/* Stil für die Tabelle */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Stil für die Aktionen (Icons) */
+td a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Stil für die Icons */
+td img {
+    width: 16px;
+    height: 16px;
+}
+
+.container {
+    margin-bottom: 150px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.content {
+    padding: 20px;
+    margin-bottom: 100px; /* Hinzugefügter Abstand, um Platz für den Footer zu schaffen */
+}
+
+/* Stil für den Hover-Effekt */
+.list-group-item a:hover {
+    color: darkred !important;
+}
+
+
+#actions-toggle:hover {
+    background-color: #f8f9fa; /* Hintergrundfarbe bei Hover ändern */
+}
+

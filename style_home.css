@@ -1,0 +1,57 @@
+
+
+        body {font-family: 'Segoe UI Light', sans-serif;
+    background-color: #F0F0F0; /* Hintergrundfarbe */
+    margin: 0;
+    padding-bottom: 100px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo-container {
+            text-align: center;
+        }
+        .logo {
+            width: 700px;
+            height: auto;
+        }
+
+        .login-container {
+            text-align: left;
+            margin-top: 20px;
+            
+        }
+
+        .login-form {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        /* Erhöhen Sie die Schriftgröße für Benutzername und Passwort */
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form label
+{
+    font-size: 20px;
+    padding: 10px;
+}
+.login-form h1 {
+    font-size:24;
+}
+/* Erhöhen Sie die Größe des Buttons */
+.login-form input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+        .btn-primary {
+            background-color: #e60000;
+            border-color: #e60000;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff0000;
+            border-color: #ff0000;
+        }
+
